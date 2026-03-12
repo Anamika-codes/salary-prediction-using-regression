@@ -166,7 +166,9 @@ models/best_model.pkl
 
 This mimics real production ML workflows.
 
-5️⃣ Evaluation (evaluate.py)
+---
+
+### 5️⃣ Evaluation (evaluate.py)
 
 Evaluates trained models using:
 
@@ -178,7 +180,9 @@ R² Score
 
 This ensures model reliability.
 
-6️⃣ Explainable AI (explain.py)
+---
+
+### 6️⃣ Explainable AI (explain.py)
 
 SHAP (SHapley Additive exPlanations) is used to interpret model behavior.
 
@@ -190,7 +194,9 @@ Global feature importance
 
 This removes the "black box" nature of ML models.
 
-7️⃣ Prediction Engine (predict.py)
+---
+
+### 7️⃣ Prediction Engine (predict.py)
 
 Loads best_model.pkl and performs:
 
@@ -204,7 +210,9 @@ Salary prediction
 
 Ensures consistency between training and inference.
 
-8️⃣ Streamlit Web Application (streamlit_app.py)
+---
+
+### 8️⃣ Streamlit Web Application (streamlit_app.py)
 
 Provides a user-friendly interface where users can:
 
@@ -233,9 +241,9 @@ Prediction API
    ↓
 Streamlit Web App
 
+---
 
-
-📈 Model Performance
+### 📈 Model Performance
 
 Models are compared using R² Score.
 
@@ -249,6 +257,7 @@ XGBoost	~0.30
 
 Salary prediction is inherently noisy, making moderate R² values realistic.
 
+---
 
 ▶️ How to Run the Project
 1. Install dependencies
@@ -261,7 +270,7 @@ python src/explain.py
 streamlit run app/streamlit_app.py
 🧩 Technologies Used
 
-Python
+```Python
 
 Scikit-Learn
 
@@ -272,8 +281,11 @@ SHAP
 Streamlit
 
 Pandas & NumPy
+```
 
-🎯 Learning Outcomes
+---
+
+### 🎯 Learning Outcomes
 
 This project demonstrates:
 
@@ -287,7 +299,9 @@ Explainable AI integration
 
 Deployment of ML models into applications
 
-🔮 Future Improvements
+---
+
+### 🔮 Future Improvements
 
 Local SHAP explanations per prediction
 
@@ -297,12 +311,15 @@ Cloud deployment (Streamlit Cloud / AWS)
 
 Real-time salary benchmarking dashboard
 
-👨‍💻 Author
+---
+
+### 👨‍💻 Author
 
 AI Salary Prediction System — Machine Learning Project
 
 Built as an end-to-end regression-based AI application demonstrating practical ML engineering and deployment workflows.
 
+---
 
 
 
