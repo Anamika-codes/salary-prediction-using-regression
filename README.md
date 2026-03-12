@@ -1,3 +1,5 @@
+Name : Anamika Mukherjee
+
 # 💼 AI Salary Prediction System Using Regression
 
 An end-to-end Machine Learning project that predicts employee salaries using regression models and provides explainable insights through SHAP along with an interactive Streamlit web application.
@@ -299,5 +301,6 @@ Real-time salary benchmarking dashboard
 AI Salary Prediction System — Machine Learning Project
 
 Built as an end-to-end regression-based AI application demonstrating practical ML engineering and deployment workflows.
+
 
 
