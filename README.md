@@ -38,7 +38,7 @@ The system trains multiple regression models, automatically selects the best per
 ---
 
 ## 📂 Project Structure
-salary_prediction/
+```salary_prediction/
 │
 ├── app/
 │ └── streamlit_app.py # Web application UI
@@ -64,7 +64,7 @@ salary_prediction/
 │
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 ## 📊 Dataset
@@ -157,7 +157,7 @@ Each model is evaluated using **R² Score**.
 
 After training:
 
-```python
+python
 best_model = max(results, key=results.get)
 
 The highest-performing model is saved as:
@@ -302,6 +302,7 @@ Real-time salary benchmarking dashboard
 AI Salary Prediction System — Machine Learning Project
 
 Built as an end-to-end regression-based AI application demonstrating practical ML engineering and deployment workflows.
+
 
 
 
